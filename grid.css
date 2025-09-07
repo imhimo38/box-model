@@ -1,0 +1,14 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* 3 equal columns */
+  grid-template-rows: auto; /* rows adjust automatically */
+  gap: 10px; /* space between items */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+}
+
+.item {
+  background: lightblue;
+  padding: 20px;
+  text-align: center;
+}
